@@ -1,0 +1,98 @@
+/* #region FUENTES */
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: mont;
+    src: url(fonts/mont/Mont-ExtraLightDEMO.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: boldFont;
+    src: url(fonts/the_bold_font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
+    font-weight: normal;
+}
+/* #endregion */
+
+/* #region GENERAL */
+body {
+    padding: 0;
+    margin: 0;
+}
+.font-1 {
+    font-family: mont;
+}
+.font-2 {
+    font-family: lemonMilk;
+}
+.font-3 {
+    font-family: boldFont;
+}
+h1, h2, h3, h4, h5, h6, span, a {
+    z-index: 10;
+}
+
+.black-theme {
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63483.jpg?size=626&ext=jpg) ;
+    
+}
+.black-theme a {
+    color: white;
+} 
+
+
+ section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 6%;
+    box-sizing: border-box;
+} 
+
+.top-text {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.bottom-text {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.text-left {
+    max-width: 40vw;
+} 
+/* #endregion */
+
+/* #region HOBBIES */
+/* #endregion */
+
+/* #region DETAIL */
+/* #endregion */
+.card{
+    padding: 6px;
+}
+.card img{ 
+    width: 100%
+}
+#detail {
+position: relative;}
+
+#detail img{
+max-width: 50vw;
+max-height: 1000vh;
+position: absolute;
+top: 0;
+right: 0;
+}
